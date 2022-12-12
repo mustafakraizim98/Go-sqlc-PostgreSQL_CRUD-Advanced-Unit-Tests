@@ -160,3 +160,4 @@ We will receive the following output:
 - [Go Official Documentation - Add a test](https://go.dev/doc/tutorial/add-a-test)
 - [Medium - How to Write Unit Test in Go](https://medium.com/yemeksepeti-teknoloji/how-to-write-unit-test-in-go-1df2b98ad510)
 - [DigitalOcean - How To Write Unit Tests in Go](https://www.digitalocean.com/community/tutorials/how-to-write-unit-tests-in-go-using-go-test-and-the-testing-package)
+- [LogRocket - A deep dive into unit testing in Go](https://blog.logrocket.com/a-deep-dive-into-unit-testing-in-go/)
