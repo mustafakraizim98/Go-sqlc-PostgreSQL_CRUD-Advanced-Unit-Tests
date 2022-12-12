@@ -2,14 +2,14 @@
 ![maxresdefault](https://user-images.githubusercontent.com/113289516/207132003-cb96d714-04c4-4e0b-a98c-05964feb7ad6.jpg)
 
 # Prerequisites
-- ![Go-PostgreSQL-Database-Migration](https://github.com/mustafakraizim98/Go-PostgreSQL-Database-Migration) // An Important Pre-Step Should be done.
-- Go - ![latest version](https://go.dev/dl/)
+- [Go-PostgreSQL-Database-Migration](https://github.com/mustafakraizim98/Go-PostgreSQL-Database-Migration) // An Important Pre-Step Should be done.
+- Go - [latest version](https://go.dev/dl/)
 - Docker
 - PostgreSQL - // Pull a Docker Image Preferred Option.
-- sqlc - ![Installing sqlc](https://docs.sqlc.dev/en/latest/overview/install.html#installing-sqlc) - /* Important */
+- sqlc - [Installing sqlc](https://docs.sqlc.dev/en/latest/overview/install.html#installing-sqlc) - /* Important */
 - MinGW Makefile - // Optional
 - TablePlus - // Optional
-- ![dbdiagram.io](https://dbdiagram.io/) - // Optional >>> Simple tool to draw ER diagrams by just writing code.
+- [dbdiagram.io](https://dbdiagram.io/) - // Optional >>> Simple tool to draw ER diagrams by just writing code.
 
 ![dbdiagram_go_sqlc_postgresql_unit_tests](https://user-images.githubusercontent.com/113289516/207153433-2abe3ccd-89e1-412c-a043-5dfea6c3d1fb.png)
 
@@ -20,7 +20,7 @@ sqlc generates type-safe code from SQL. Here's how it works:
 2. You run sqlc to generate code with type-safe interfaces to those queries.
 3. You write application code that calls the generated code.
 
-![sqlc - Getting started with PostgreSQL](https://docs.sqlc.dev/en/latest/tutorials/getting-started-postgresql.html)
+[sqlc - Getting started with PostgreSQL](https://docs.sqlc.dev/en/latest/tutorials/getting-started-postgresql.html)
 
 ### Things to Consider About sqlc:
 - Very fast & easy to use.
@@ -36,8 +36,8 @@ NOTE: Go testing files are always located in the same folder, or package, where 
 And as with everything in Go, the language is opinionated about testing. The Go language provides a minimal yet complete package called testing that developers use alongside the go test command. The testing package provides some useful conventions, such as coverage tests and benchmarks.
 
 ## Write Unit Test
-![Testify - Thou Shalt Write Tests](https://github.com/stretchr/testify#testify---thou-shalt-write-tests)
-Go code (golang) set of packages that provide many tools for testifying that our code will behave as we intend.
+[Testify - Thou Shalt Write Tests](https://github.com/stretchr/testify#testify---thou-shalt-write-tests)
+: Go code (golang) set of packages that provide many tools for testifying that our code will behave as we intend.
 
 In company_test.go file for our project, here are our CRUD unit tests implemented.
 ```
@@ -157,6 +157,6 @@ We will receive the following output:
 ```PASS``` means the code is working as expected. When a test fails, we will see ```FAIL```.
 
 # Sources to follow for detailed information: 
-- ![Go Official Documentation - Add a test](https://go.dev/doc/tutorial/add-a-test)
-- ![Medium - How to Write Unit Test in Go](https://medium.com/yemeksepeti-teknoloji/how-to-write-unit-test-in-go-1df2b98ad510)
-- ![DigitalOcean - How To Write Unit Tests in Go](https://www.digitalocean.com/community/tutorials/how-to-write-unit-tests-in-go-using-go-test-and-the-testing-package)
+- [Go Official Documentation - Add a test](https://go.dev/doc/tutorial/add-a-test)
+- [Medium - How to Write Unit Test in Go](https://medium.com/yemeksepeti-teknoloji/how-to-write-unit-test-in-go-1df2b98ad510)
+- [DigitalOcean - How To Write Unit Tests in Go](https://www.digitalocean.com/community/tutorials/how-to-write-unit-tests-in-go-using-go-test-and-the-testing-package)
